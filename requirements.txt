@@ -1,2 +1,7 @@
-pymongo[srv]==4.2.0
+pymongo[srv]==4.1.1
+from-root
+typing
+scikit-learn==1.1.3
+pyYAML
+datetime
 -e .

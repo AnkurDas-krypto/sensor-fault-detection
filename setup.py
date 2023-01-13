@@ -1,10 +1,18 @@
 from setuptools import find_packages, setup 
 from typing import List
+import os
 
-def get_requirements()-> List[str]:
-    requirement_list: List[str] = []
+# def get_requirements()-> List[str]:
+#     #requirement_list: List[str] = []
+#     with open('requirements.txt') as f:
+#         req = f.read().splitlines()
+#     return req
 
+def get_requirements()->List[str]:
+    requirement_list:List[str] = []
     return requirement_list
+
+get_requirements() 
 
 setup(
     name = "sensor",
