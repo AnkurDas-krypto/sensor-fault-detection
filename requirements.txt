@@ -4,4 +4,5 @@ typing
 scikit-learn==1.1.3
 pyYAML
 datetime
+shutil
 -e .
